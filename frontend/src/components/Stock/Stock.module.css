@@ -1,0 +1,171 @@
+/* General Layout */
+.container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+}
+
+/* Page Header */
+.pageHeader {
+    font-size: 24px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+}
+
+.table td {
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+/* Form Group */
+.formGroup {
+    margin-bottom: 15px;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+/* Input and Select */
+.formControl {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.formControl:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnSuccess {
+    background-color: #28a745;
+    color: white;
+}
+
+.btnSuccess:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .table th,
+    .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
